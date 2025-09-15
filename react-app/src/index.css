@@ -1,0 +1,43 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@import 'prismjs/themes/prism-tomorrow.css';
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+.code-block {
+  @apply bg-gray-900 rounded-lg p-4 overflow-x-auto;
+}
+
+.code-header {
+  @apply bg-gray-800 px-4 py-2 rounded-t-lg border-b border-gray-700 flex justify-between items-center;
+}
+
+.copy-button {
+  @apply bg-blue-600 hover:bg-blue-700 text-white px-3 py-1 rounded text-sm transition-colors;
+}
+
+.copy-button:hover {
+  @apply bg-blue-500;
+}
+
+.example-card {
+  @apply bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 border border-gray-200;
+}
+
+.example-title {
+  @apply text-xl font-semibold text-gray-800 mb-2;
+}
+
+.example-description {
+  @apply text-gray-600 mb-4;
+}
+
+.tag {
+  @apply inline-block bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded-full mr-2 mb-2;
+}
