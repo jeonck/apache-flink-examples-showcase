@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/apacheflink-csvtojson-and-jsonAggregation-development-example/',
+  base: '/apache-flink-examples-showcase/',
   build: {
     outDir: 'dist',
     assetsDir: 'assets',
